@@ -55,18 +55,16 @@
       loader
     >
       <a-marker preset="hiro" id="watA">
-        <a-entity
-          rotation="0 0 0"
-          listen-to-flip
-          listen-to-scale
-          id="marker1A"
-        >
-          <a-sphere
-            id="wat1A"
-            position="0 0 0"
-            color="red"
-            radius="0.6"
-          ></a-sphere>
+        <a-entity rotation="0 0 0" listen-to-flip listen-to-scale id="marker1A">
+          <a-torus-knot
+            color="#B84A39"
+            arc="180"
+            p="2"
+            q="7"
+            radius="1"
+            radius-tubular="0.1"
+            rotation="90 0 0"
+          ></a-torus-knot>
         </a-entity>
       </a-marker>
 
@@ -77,12 +75,15 @@
           listen-to-scale
           id="marker1B"
         >
-          <a-sphere
-            id="wat1B"
-            position="0 0 0"
-            color="red"
-            radius="0.6"
-          ></a-sphere>
+          <a-torus-knot
+            color="#B84A39"
+            arc="180"
+            p="2"
+            q="7"
+            radius="1"
+            radius-tubular="0.1"
+            rotation="90 0 0"
+          ></a-torus-knot>
         </a-entity>
       </a-marker>
 
